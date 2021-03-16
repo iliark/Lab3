@@ -8,9 +8,7 @@ int findFirstNegativeElement(double eps)
 	{
 		a = pow(-1, i) * (i + 1) / (pow(i, 3) + 2);
 		if (abs(a) < eps && a < 0)
-			break;
+			return i;
 		++i;
 	}
-	return i;
-
 }

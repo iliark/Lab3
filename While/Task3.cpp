@@ -12,6 +12,5 @@ void print(int n, int k)
 		cout << pow(-1, i) * (i + 1) / (pow(i, 3) + 2)<<endl;
 		++i;
 	}
-
 }
 	

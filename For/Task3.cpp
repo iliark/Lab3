@@ -3,10 +3,11 @@
 #include <iostream>
 using namespace std;
 void print(int n, int k)
-{
-	for (int i = 0; i < n; ++i)
+{	
+	cout << pow(-1, 0) * (0 + 1) / (pow(0, 3) + 2)<< endl;
+	for (int i = 1; i < n; i++)
 	{
-		if (i!=0 && i % k == 0)
+		if (i % k == 0)
 			continue;
 		cout << pow(-1, i) * (i + 1) / (pow(i, 3) + 2)<<endl;
 	}

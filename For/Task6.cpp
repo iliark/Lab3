@@ -2,7 +2,6 @@
 #include "Header.h"
 #include <conio.h>
 using namespace std;
-
 int main()
 {
     int n, k;
@@ -61,6 +60,5 @@ int main()
             cout << "Either you missed or a fool. Try another key" << endl;
             break;
         }
-
     }
 }
